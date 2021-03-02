@@ -1,0 +1,121 @@
+
+{% block content %}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="{% url 'home' %}">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/d/da/ITL.png" width="50" height="1000">
+    </a>
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <a href="{% url 'form' %}" class="button is-primary">
+            <strong>Forms</strong>
+          </a>
+          <a href="{% url 'exit' %}" class="button is-warning">
+            Standings
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<br>
+<div class="container">
+  <div class="columns">
+    <div class="column">
+      <div class="container is-widescreen">
+    <div class="card">
+      <div class="card-image">
+        <figure class="image is-4by3">
+          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/Leicester_City_crest.svg/1200px-Leicester_City_crest.svg.png" alt="Placeholder image">
+        </figure>
+      </div>
+      <div class="card-content">
+        <div class="media">
+          <div class="media-left">
+            <figure class="image is-48x48">
+              <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/Leicester_City_crest.svg/1200px-Leicester_City_crest.svg.png" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="media-content">
+            <p class="title is-4">Leicester City FC</p>
+            <p class="subtitle is-6">@leicester_fc</p>
+          </div>
+        </div>
+        <div class="content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Phasellus nec iaculis mauris. <a>@LCFC</a>.
+          <a href="#">#leicester</a> <a href="#">#itl</a>
+          <br>
+          <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+    <div class="column">
+      <div class="container is-widescreen">
+    <div class="card">
+      <div class="card-image">
+        <figure class="image is-4by3">
+          <img src="https://logos-marcas.com/wp-content/uploads/2020/08/Arsenal-Logo.png" alt="Placeholder image">
+        </figure>
+      </div>
+      <div class="card-content">
+        <div class="media">
+          <div class="media-left">
+            <figure class="image is-48x48">
+              <img src="https://logos-marcas.com/wp-content/uploads/2020/08/Arsenal-Logo.png" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="media-content">
+            <p class="title is-4">Arsenal</p>
+            <p class="subtitle is-6">@arsenal_official</p>
+          </div>
+        </div>
+        <div class="content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Phasellus nec iaculis mauris. <a>@arseFC</a>.
+          <a href="#">#arsenal</a> <a href="#">#itl</a>
+          <br>
+          <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+    <div class="column">
+      <div class="container is-widescreen">
+    <div class="card">
+      <div class="card-image">
+        <figure class="image is-4by3">
+          <img src="https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c4ee.png" alt="Placeholder image">
+        </figure>
+      </div>
+      <div class="card-content">
+        <div class="media">
+          <div class="media-left">
+            <figure class="image is-48x48">
+              <img src="https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c4ee.png" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="media-content">
+            <p class="title is-4">Tottenham Hotspur</p>
+            <p class="subtitle is-6">@tottHS</p>
+          </div>
+        </div>
+        <div class="content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Phasellus nec iaculis mauris. <a>@THotspur</a>.
+          <a href="#">#tottenham</a> <a href="#">#itl</a>
+          <br>
+          <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+  </div>
+</div>
+{% endblock content %}
