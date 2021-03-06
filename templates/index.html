@@ -1,5 +1,7 @@
 
 {% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/base.css' %}">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
 <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
@@ -21,7 +23,8 @@
   </div>
 </nav>
 <br>
-<div class="container">
+<body>
+  <div class="container">
   <div class="columns">
     <div class="column">
       <div class="container is-widescreen">
@@ -118,4 +121,5 @@
     </div>
   </div>
 </div>
+</body>
 {% endblock content %}
