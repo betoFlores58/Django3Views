@@ -1,10 +1,8 @@
+/*Este estilo de back color se refleja en el index*/
 body{
     background-color: #90d412;
 }
-
-h1{
-    font-style: oblique;
-}
+/* Este estilo agrega un borde negro a cada card del index con su clase 'card'*/
 .card{
     border: black;
     border-color: black;
@@ -13,6 +11,7 @@ h1{
     border-style: groove;
     padding: 5px;
 }
+/* Este estilo agrega estilo y color al letrero de 'Standings' en salir.html */
 #p{
     font-style: italic;
     font: bolder;
